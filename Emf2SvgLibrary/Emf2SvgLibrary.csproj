@@ -9,7 +9,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>1.0.2</Version>
+        <Version>1.0.4</Version>
         <Title>Emf2Svg Library</Title>
         <Authors>Vasiliy Lu</Authors>
         <Description>A cross-platform library (Windows, Linux) for converting EMF (Enhanced Metafile) files to SVG (Scalable Vector Graphics) files. Based on (https://github.com/metanorma/libemf2svg) native C library.</Description>
@@ -21,7 +21,7 @@
             <PackagePath>runtimes\win-x64\native\</PackagePath>
             <Pack>true</Pack>
         </None>
-        <None Include="runtimes\linux-x64\native\*.so">
+        <None Include="runtimes\linux-x64\native\*.so*">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <PackagePath>runtimes\linux-x64\native\</PackagePath>
             <Pack>true</Pack>

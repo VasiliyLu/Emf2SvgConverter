@@ -8,7 +8,7 @@
         </Content>
     </ItemGroup>
     <ItemGroup Condition="'$(OS)' == 'UNIX'">
-        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\linux-x64\native\*.so">
+        <Content Include="$(MSBuildThisFileDirectory)..\runtimes\linux-x64\native\*.so*">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <Link>%(FileName)%(Extension)</Link>
             <Visible>false</Visible>
